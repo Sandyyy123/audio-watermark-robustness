@@ -1,0 +1,81 @@
+{
+  "config": {
+    "n_fft": 1024,
+    "hop": 512,
+    "band_hz": [
+      2000.0,
+      7000.0
+    ],
+    "alpha": 0.35,
+    "payload_bits": 16,
+    "sr": 44100,
+    "n_clips": 40,
+    "target_fpr": 0.01
+  },
+  "audibility_snr_db_mean": 40.95,
+  "clean_ber_mean": 0.0,
+  "roc_auc_present_vs_absent": 1.0,
+  "detection_threshold_at_fpr": 4.939,
+  "attacks": {
+    "none": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 38.53
+    },
+    "mp3_128k": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 36.07
+    },
+    "mp3_64k": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 32.27
+    },
+    "resample_22k": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 38.53
+    },
+    "noise_30dB": {
+      "mean_ber": 0.0016,
+      "detection_rate": 1.0,
+      "mean_statistic": 14.7
+    },
+    "noise_25dB": {
+      "mean_ber": 0.0344,
+      "detection_rate": 1.0,
+      "mean_statistic": 7.31
+    },
+    "noise_20dB": {
+      "mean_ber": 0.1875,
+      "detection_rate": 0.075,
+      "mean_statistic": 4.32
+    },
+    "requantize_8bit": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 35.85
+    },
+    "gain_0.5x": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 38.53
+    },
+    "lowpass_8kHz": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 38.22
+    },
+    "highpass_150Hz": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 38.29
+    },
+    "time_stretch_2pct": {
+      "mean_ber": 0.0,
+      "detection_rate": 1.0,
+      "mean_statistic": 38.5
+    }
+  }
+}
